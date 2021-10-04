@@ -14,11 +14,11 @@
 
 Таблица адресации.
 
-![IP](C:\Users\Ivan\Desktop\IP.png)
+![IP](https://github.com/Cooler1213/Otus-Network/blob/fd14bf9164b1254a76a60b067a328cab5f26b11a/Lab/VLAN/IP.png)
 
 Таблица VLAN.
 
-![Vlan](C:\Users\Ivan\Desktop\Vlan.png)
+![Vlan](https://github.com/Cooler1213/Otus-Network/blob/fd14bf9164b1254a76a60b067a328cab5f26b11a/Lab/VLAN/Vlan.png)
 
 Проверка по заданию прошла успешно.
 
@@ -28,7 +28,7 @@ b.   Ping from PC-A to PC-B
 
 c.   Ping from PC-A to S2
 
-![a](C:\Users\Ivan\Desktop\a.png)
+![a](https://github.com/Cooler1213/Otus-Network/blob/fd14bf9164b1254a76a60b067a328cab5f26b11a/Lab/VLAN/a.png)
 
 
 
