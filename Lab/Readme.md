@@ -2,7 +2,7 @@
 
 ##### Схема Paket Tracer:
 
-![Scheme](C:\Users\Ivan\Desktop\Scheme.png)
+![Scheme](Otus-Network/Lab/Scheme.png)
 
 ##### Задание:
 
