@@ -32,7 +32,7 @@ c.   Ping from PC-A to S2
 
 
 
-![Конфиг для Poket Tracer.](https://github.com/Cooler1213/Otus-Network/blob/1bac7063e1c3e29b8343632d7208f6aabe79a8f6/Lab/VLAN/Lab2.pkt)
+[Конфиг для Poket Tracer.](https://github.com/Cooler1213/Otus-Network/blob/1bac7063e1c3e29b8343632d7208f6aabe79a8f6/Lab/VLAN/Lab2.pkt)
 
 Основные настройки.
 
