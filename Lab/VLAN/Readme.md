@@ -2,7 +2,7 @@
 
 ##### Схема Paket Tracer:
 
-![Scheme](Otus-Network/Lab/Scheme.png)
+![Scheme](Lab/VLAN/Scheme.png)
 
 ##### Задание:
 
