@@ -36,3 +36,6 @@ c.   Ping from PC-A to S2
 
 Основные настройки.
 
+-=Pass=-
+console: cisco
+enable: class
