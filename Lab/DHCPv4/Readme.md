@@ -109,7 +109,7 @@ Vlans:
 > ipconfig /renew  
 > ipconfig 
 
-![ipconfig PC-A](C:\Users\Ivan\Desktop\Otus_Network_engineer\Lab_5\ipconfig PC-A.png)
+![ipconfig PC-A](https://github.com/Cooler1213/Otus-Network/blob/d7039c92b4f3739e5bfafbcd0d5d3aaf6c209c8c/Lab/DHCPv4/ipconfig%20PC-A.png)
 
 Проверяем доступность G0/0/1 на R1
 
