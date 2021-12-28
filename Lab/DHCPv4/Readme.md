@@ -46,20 +46,21 @@ Vlans:
 
 Прописываем маршруты по умолчанию на каждом из маршрутизаторов.
 
-R1(config)# ip route 0.0.0.0 0.0.0.0 10.0.0.2  
-R2(config)# ip route 0.0.0.0 0.0.0.0 10.0.0.1
+> R1(config)# ip route 0.0.0.0 0.0.0.0 10.0.0.2  
+> R2(config)# ip route 0.0.0.0 0.0.0.0 10.0.0.1
 
 Проверяем статическую маршрутизацию командой ping на адрес G0 / 0/1 R2 от R1
 
-R1#ping 192.168.1.97 
-
-Type escape sequence to abort.
-
-Sending 5, 100-byte ICMP Echos to 192.168.1.97, timeout is 2 seconds:
-
-!!!!!
-
-Success rate is 100 percent (5/5), round-trip min/avg/max = 0/0/0 ms
+> R1#ping 192.168.1.97 
+>
+> Type escape sequence to abort.
+>
+> Sending 5, 100-byte ICMP Echos to 192.168.1.97, timeout is 2 seconds:
+>
+> !!!!!
+>
+> Success rate is 100 percent (5/5), round-trip min/avg/max = 0/0/0 ms
+>
 
 
 
@@ -67,8 +68,8 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 0/0/0 ms
 Выключаем интерфейсы которые не используются.  
 Указываем для вланов управления шлюз по умолчанию.
 
-S1(config)# ip default-gateway 192.168.1.1  
-S2(config)# ip default-gateway 192.168.1.65
+> S1(config)# ip default-gateway 192.168.1.1  
+> S2(config)# ip default-gateway 192.168.1.65
 
 На данный момент если на PC включить dhcp они получат адреса из подсети  169.254.x.x "Automatic Private IP Address (APIPA)" 
 
@@ -78,34 +79,37 @@ S2(config)# ip default-gateway 192.168.1.65
 
 Первый пул R1_Client_LAN
 
-R1(config)# ip dhcp excluded-address 192.168.1.1 192.168.1.5  
-R1(config)# ip dhcp pool R1_Client_LAN   
-R1(dhcp–config)# network 192.168.1.0 255.255.255.192  
-R1(dhcp–config)# domain-name ccna-lab.com  
-R1(dhcp–config)# default-router 192.168.1.1  
-R1(dhcp–config)# lease 2 12 30
+> R1(config)# ip dhcp excluded-address 192.168.1.1 192.168.1.5  
+> R1(config)# ip dhcp pool R1_Client_LAN   
+> R1(dhcp–config)# network 192.168.1.0 255.255.255.192  
+> R1(dhcp–config)# domain-name ccna-lab.com  
+> R1(dhcp–config)# default-router 192.168.1.1  
+> R1(dhcp–config)# lease 2 12 30
 
 Второй пул пул R2_Client_LAN
 
-R1(config)# ip dhcp excluded-address 192.168.1.97 192.168.1.101
-R1(config)# ip dhcp pool R2_Client_LAN  
-R1(dhcp–config)# network 192.168.1.96 255.255.255.240
-R1(dhcp–config)# default-router 192.168.1.97  
-R1(dhcp–config)# domain-name ccna-lab.com  
-R1(dhcp–config)# lease 2 12 30
+> R1(config)# ip dhcp excluded-address 192.168.1.97 192.168.1.101
+> R1(config)# ip dhcp pool R2_Client_LAN  
+> R1(dhcp–config)# network 192.168.1.96 255.255.255.240
+> R1(dhcp–config)# default-router 192.168.1.97  
+> R1(dhcp–config)# domain-name ccna-lab.com  
+> R1(dhcp–config)# lease 2 12 30
 
 Проверку настроек , выданных адресов, статистику можно посмотреть с помощью следующих команд.
 
-show ip dhcp pool   
-show ip dhcp bindings  
-show ip dhcp server statistics
+> show ip dhcp pool   
+> show ip dhcp bindings  
+> show ip dhcp server statistics
 
 Проверяем на PC-A что настройки от сервера получены.
-В командной строке вводим поочередно:  
-ipconfig /renew  
-ipconfig 
+В командной строке вводим поочередно: 
 
-скрин
+>
+>  
+> ipconfig /renew  
+> ipconfig 
+
+![ipconfig PC-A](C:\Users\Ivan\Desktop\Otus_Network_engineer\Lab_5\ipconfig PC-A.png)
 
 Проверяем доступность G0/0/1 на R1
 
