@@ -14,7 +14,10 @@
 
 ![IP](https://github.com/Cooler1213/Otus-Network/blob/f4ca1c7a366edbb844ca06151599a39213227bc0/Lab/DHCPv4/IP.png)
 
-Подсети:
+Схема адресации должна соответствовать:
+1. "Подсеть A" 58 хостов
+2. "Подсеть B" 28 хостов
+3. "Подсеть C" 12 хостов
 
 ![Subnet](https://github.com/Cooler1213/Otus-Network/blob/f4ca1c7a366edbb844ca06151599a39213227bc0/Lab/DHCPv4/Subnet.png)
 
