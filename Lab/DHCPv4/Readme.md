@@ -65,7 +65,7 @@ Vlans:
 
 
 Настраиваем S1 и S2 соответственно таблицам адресации.  
-Выключаем интерфейсы которые не используются.  
+Выключаем интерфейсы, которые не используются.  
 Указываем для вланов управления шлюз по умолчанию.
 
 > S1(config)# ip default-gateway 192.168.1.1  
@@ -88,14 +88,14 @@ Vlans:
 
 Второй пул пул R2_Client_LAN
 
-> R1(config)# ip dhcp excluded-address 192.168.1.97 192.168.1.101
+> R1(config)# ip dhcp excluded-address 192.168.1.97 192.168.1.101  
 > R1(config)# ip dhcp pool R2_Client_LAN  
-> R1(dhcp–config)# network 192.168.1.96 255.255.255.240
+> R1(dhcp–config)# network 192.168.1.96 255.255.255.240  
 > R1(dhcp–config)# default-router 192.168.1.97  
 > R1(dhcp–config)# domain-name ccna-lab.com  
 > R1(dhcp–config)# lease 2 12 30
 
-Проверку настроек , выданных адресов, статистику можно посмотреть с помощью следующих команд.
+Проверку настроек, выданных адресов, статистику можно посмотреть с помощью следующих команд.
 
 > show ip dhcp pool   
 > show ip dhcp bindings  
@@ -111,6 +111,6 @@ Vlans:
 
 ![ipconfig PC-A](https://github.com/Cooler1213/Otus-Network/blob/d7039c92b4f3739e5bfafbcd0d5d3aaf6c209c8c/Lab/DHCPv4/ipconfig%20PC-A.png)
 
-Проверяем доступность G0/0/1 на R1
+Проверяем доступность  G0/0/1  R1 с PC-A
 
 ![Ping PC-A to R1](https://github.com/Cooler1213/Otus-Network/blob/682b6cb15ca98a656a395efcf787d96d899a8f19/Lab/DHCPv4/Ping%20PC-A%20to%20R1.png)
