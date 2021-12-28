@@ -29,25 +29,25 @@ Vlans:
 
 Задаем начальную конфигурацию всех устройств.
 
-`hostname "имя"  
-no ip domain lookup  
-enable secret class  
-line console 0   
-password cisco  
-login  
-line vty 0 4  
-password cisco  
-login  
-service password-encryption  
-banner motd $  
-This is a secure system. Authorized Access Only! $`
+> hostname "имя"  
+> no ip domain lookup  
+> enable secret class  
+> line console 0   
+> password cisco  
+> login  
+> line vty 0 4  
+> password cisco  
+> login  
+> service password-encryption  
+> banner motd $  
+> This is a secure system. Authorized Access Only! $
 
 На R1 и R2 настраиваем интерфейсы и адресацию соответственно таблицам адресации и включаем их.
 
 Прописываем маршруты по умолчанию на каждом из маршрутизаторов.
 
-`R1(config)# ip route 0.0.0.0 0.0.0.0 10.0.0.2  
-R2(config)# ip route 0.0.0.0 0.0.0.0 10.0.0.1`
+R1(config)# ip route 0.0.0.0 0.0.0.0 10.0.0.2  
+R2(config)# ip route 0.0.0.0 0.0.0.0 10.0.0.1
 
 Проверяем статическую маршрутизацию командой ping на адрес G0 / 0/1 R2 от R1
 
