@@ -113,5 +113,4 @@ Vlans:
 
 Проверяем доступность G0/0/1 на R1
 
-
-
+![Ping PC-A to R1](https://github.com/Cooler1213/Otus-Network/blob/682b6cb15ca98a656a395efcf787d96d899a8f19/Lab/DHCPv4/Ping%20PC-A%20to%20R1.png)
