@@ -10,5 +10,14 @@
 Часть 2. Настройка и проверка двух серверов DHCPv4 на R1.  
 Часть 3. Настройка и проверка ретрансляции DHCP на R2.   
 
-Таблица адресации.
+Таблица адресации:
 
+![IP](https://github.com/Cooler1213/Otus-Network/blob/f4ca1c7a366edbb844ca06151599a39213227bc0/Lab/DHCPv4/IP.png)
+
+Подсети:
+
+![Subnet](https://github.com/Cooler1213/Otus-Network/blob/f4ca1c7a366edbb844ca06151599a39213227bc0/Lab/DHCPv4/Subnet.png)
+
+Vlans:
+
+![Vlan](https://github.com/Cooler1213/Otus-Network/blob/f4ca1c7a366edbb844ca06151599a39213227bc0/Lab/DHCPv4/Vlan.png)
