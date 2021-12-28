@@ -25,11 +25,11 @@ Vlans:
 
 ![Vlan](https://github.com/Cooler1213/Otus-Network/blob/f4ca1c7a366edbb844ca06151599a39213227bc0/Lab/DHCPv4/Vlan.png)
 
-Часть 1. Построение сети и настройка основных параметров устройств.
+##### Часть 1. Построение сети и настройка основных параметров устройств.
 
 Задаем начальную конфигурацию всех устройств.
 
-hostname "имя"  
+`hostname "имя"  
 no ip domain lookup  
 enable secret class  
 line console 0   
@@ -40,14 +40,14 @@ password cisco
 login  
 service password-encryption  
 banner motd $  
-This is a secure system. Authorized Access Only! $
+This is a secure system. Authorized Access Only! $`
 
 На R1 и R2 настраиваем интерфейсы и адресацию соответственно таблицам адресации и включаем их.
 
 Прописываем маршруты по умолчанию на каждом из маршрутизаторов.
 
-R1(config)# ip route 0.0.0.0 0.0.0.0 10.0.0.2  
-R2(config)# ip route 0.0.0.0 0.0.0.0 10.0.0.1
+`R1(config)# ip route 0.0.0.0 0.0.0.0 10.0.0.2  
+R2(config)# ip route 0.0.0.0 0.0.0.0 10.0.0.1`
 
 Проверяем статическую маршрутизацию командой ping на адрес G0 / 0/1 R2 от R1
 
