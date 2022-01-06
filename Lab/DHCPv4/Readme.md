@@ -114,3 +114,22 @@ Vlans:
 Проверяем доступность  G0/0/1  R1 с PC-A
 
 ![Ping PC-A to R1](https://github.com/Cooler1213/Otus-Network/blob/682b6cb15ca98a656a395efcf787d96d899a8f19/Lab/DHCPv4/Ping%20PC-A%20to%20R1.png)
+
+#### Часть 3. Настройка и проверка ретрансляции DHCP на R2.
+
+Настраиваем ip helper-address на интерфейсе G0/0/1 R2, указав IP-адрес R1 G0/0/0.
+
+> ip helper-address 10.0.0.1
+
+Открываем командную строку PC-B и командами 
+
+> ipconfig /renew
+>
+> ipconfig
+
+Проверяем, что PC-B получил IP адрес.
+
+Командой ping проверяем доступность интерфейса G0/0/1 на R1.
+
+Например  G0/0/1.100 
+
