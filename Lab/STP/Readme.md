@@ -33,6 +33,9 @@
 ###### no shutdown
 4. Просмотр данных протокола spanning-tree на всех комутаторах.
 ###### show spanning-tree 
-
+коммутатор с самым низким значением MAC-адреса становится корневым (в примере — S1)
+![STP10](https://github.com/Cooler1213/Otus-Network/blob/5e3e648cab211395a68cc59d188866e77ea4674d/Lab/STP/STP10.png)
+![STP11](https://github.com/Cooler1213/Otus-Network/blob/5e3e648cab211395a68cc59d188866e77ea4674d/Lab/STP/STP11.png)
+![STP12](https://github.com/Cooler1213/Otus-Network/blob/5e3e648cab211395a68cc59d188866e77ea4674d/Lab/STP/STP12.png)
 
  
