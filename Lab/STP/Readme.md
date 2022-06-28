@@ -49,3 +49,5 @@ Port ID привязан к порту и состоит из приоритет
 
 ![Root](https://github.com/Cooler1213/Otus-Network/blob/2e3b6adb3f49744c652806fd7d0db8a94fc0c593/Lab/STP/Root.png)
 
+#### Часть 3. Наблюдение за процессом выбора протоколом STP порта, исходя из стоимости портов.
+
