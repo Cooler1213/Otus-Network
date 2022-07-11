@@ -72,4 +72,4 @@ Port ID привязан к порту и состоит из приоритет
 Аналогично на S3 F0/3 стал корневым.  
 Протокол STP выбрал эти порты в качестве портов корневого моста т.к. стоимость данных портов меньше, а следовательно путь   через них приоритетнее.
 
-![Topolog](https://github.com/Cooler1213/Otus-Network/blob/e637821fc411fcf33bafe0ded539f1efd47f1972/Lab/STP/Topolog.png)
+![Topolog](https://github.com/Cooler1213/Otus-Network/blob/812707634b75cb29699521d7197c5292a9a24565/Lab/STP/STP13.png)
