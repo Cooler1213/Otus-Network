@@ -74,4 +74,4 @@ Port ID привязан к порту и состоит из приоритет
 
 ![Topolog](https://github.com/Cooler1213/Otus-Network/blob/812707634b75cb29699521d7197c5292a9a24565/Lab/STP/STP13.png)
 
-[Конфиг для Packet Tracer.]()
+[Конфиг для Packet Tracer.](https://github.com/Cooler1213/Otus-Network/blob/b767672f9ccb21483f3c16d48d7e67f64936b33b/Lab/STP/STP.pkt)
