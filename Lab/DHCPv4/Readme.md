@@ -143,5 +143,9 @@ S2 VLAN1 , ip 192.168.1.66
 
 Командой ping проверяем доступность интерфейса G0/0/1 на R1.
 
-Например  G0/0/1.100 
+Например  G0/0/1.100  
+
+![Ping PC-B to R1](https://github.com/Cooler1213/Otus-Network/blob/dde091142e914790377078491b854b1dd024ace3/Lab/DHCPv4/Ping%20PC-B%20to%20R1%20.png)
+
+Вывод команды show ip dhcp binding на R1
 
