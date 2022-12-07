@@ -78,9 +78,9 @@ S2 VLAN1 , ip 192.168.1.66
 Т.к. на S1 итерфейсу F0/5 мы не задали ни какой Vlan, по умолчанию останется Vlan1.  
 По заданию настроим на нем транк и разрешим определенные вланы.
 
-> interface FastEthernet0/5
-> switchport trunk native vlan 1000
-> switchport trunk allowed vlan 100,200,1000
+> interface FastEthernet0/5  
+> switchport trunk native vlan 1000  
+> switchport trunk allowed vlan 100,200,1000  
 > switchport mode trunk
 
 На данный момент если на PC включить dhcp они получат адреса из подсети  169.254.x.x "Automatic Private IP Address (APIPA)" 
