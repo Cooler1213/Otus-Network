@@ -15,4 +15,4 @@
 
 Таблица адресации:
 
-![IP]()
+![IP](https://github.com/Cooler1213/Otus-Network/blob/1226da2b0fe57768510dead6da5d89c535199fd4/Lab/DHCPv6/Tab%20IP.png)
