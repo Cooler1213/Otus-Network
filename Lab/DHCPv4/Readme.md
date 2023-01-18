@@ -152,3 +152,5 @@ S2 VLAN1 , ip 192.168.1.66
 ![show ip dhcp binding](https://github.com/Cooler1213/Otus-Network/blob/4da486a6d25bf9f3db6f6e7e14e66c7505d7853f/Lab/DHCPv4/binding.png)
 
 Адреса выдаются ,ретрансляция работает.
+
+[Конфиг для Packet Tracer.]()
