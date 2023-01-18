@@ -153,4 +153,4 @@ S2 VLAN1 , ip 192.168.1.66
 
 Адреса выдаются ,ретрансляция работает.
 
-[Конфиг для Packet Tracer.]()
+[Конфиг для Packet Tracer.](https://github.com/Cooler1213/Otus-Network/blob/7d7e19b8e72f2054342fcc624aec02bc37156331/Lab/DHCPv4/Implement%20DHCPv4.pkt)
